@@ -156,6 +156,12 @@
     border: solid white;
 }
 
+.btn-white:hover {
+    color: black;
+    background-color: white;
+    boder: none;
+}
+
 /* Containers */
 
 .container {
@@ -221,7 +227,7 @@
 }
 
 .hero {
-    background-image: url(/img/camp1.jpg);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(20, 20, 20, 0.5)), url("/img/camp1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
