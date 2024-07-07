@@ -4,67 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Campamento ONE 2024</title>
+    <title>Campamento Escogidos</title>
 </head>
 <body>
-    <header class="hero">
-        <div class="nav">
-            <menu class="container container___nav">
-                <img class="logo" src="./img/ONE-blanco-.png" alt="">
-                <ul>
+    <header class="col-12 hero">
+        <menu class="col-12 hero___nav">
+            <div class="col-12 hero___nav-container">
+                <img class="hero___nav-logo" src="./img/ONE-blanco-.png" alt="">
+                <div class="hero___nav-icon-div">
+                    <a href="#"><i class="fa-solid fa-bars hero___nav-icon-menu"></i></a>
+                </div>
+                <!--<ul>
                     <li><a href="">Inicio</a></li>
                     <li><a href="#info">Info</a></li>
                     <li><a href="#registro">Registro</a></li>
                     <li><a href="">Descargas</a></li>
                     <li><a href="">Contacto</a></li>
-                </ul>
-            </menu>
+                </ul>-->
+            </div>
+        </menu>
+        <div class="col-10 hero___container-campamento">
+            <p class="color-g1 title-campamento">Campa</p>
+            <p class="color-g1 title-campamento">mento</p>
         </div>
-        <div class="container container___escogidos">
-            <p class=" title title___repeat">Campamento Escogidos</p>
-            <p class=" title title___repeat">Campamento Escogidos</p>
-            <h1 class="title">Campamento Escogidos</h1>
-            <p class="title title___repeat">Campamento Escogidos</p>
-            <p class=" title title___repeat">Campamento Escogidos</p>
+        <div class="col-10 hero___container-escogidos">
+            <h1 class="color-p1 title">Escogidos</h1>
+            <p class="color-p1 title title-1">Escogidos</p>
+            <p class="color-p1 title title-2">Escogidos</p>
         </div>
-        <div class="container___call-to-action">
-            <a class="btn btn-m btn-white" href="#info">Quiero saber más</a>
-            <a class="btn btn-m btn-white" href="#registro">Me quiero registrar</a>
+        <div class="col-10 hero___container-fecha">
+            <p class="color-g1 title-fecha title-fecha-1">9 y 10</p>
+            <p class="color-g1 title-fecha title-fecha-2">de agosto</p>
+        </div>
+        <div class="col-10 hero___container-call-to-action">
+            <a class="btn btn-l" href="#registro">Regístrate</a>
         </div>
     </header>
-    <section id="info">
-        <div class="container">
-            <h3 class="subtitle">Info</h3>
-            <div class="container___info">
-                <div class="info">
-                    <h4 class="div-title">¿Cuándo?</h4>
-                    <p><span class="text-big">9</span> y <span class="text-big">10</span></p>
-                    <p>de</p>
-                    <p><span class="text-big">Agosto</span></p>
-                </div>
-                <div class="info">
-                    <h4 class="div-title">Costo</h4>
-                    <span class="text-big">$1,500.ºº MXN</span>
-                    <br>
-                    <p>Descuento para 2 hermanos: $2,800.ºº MXN</p>
-                    <p>Descuento para 3 hermanos: $4,000.ºº MXN</p>
-                </div>
-                <div class="info">
-                    <h4 class="div-title">¿Dónde?</h4>
-                    <p><strong>Hacienda Mazahua</strong></p>
-                    <p>Carretera Ixtlahuaca hacia San Felipe del Progreso km. 23</p>
-                    <p>San Felipe del Progreso, Estado de México</p>
-                    <p>C.P. 50640</p>
-                </div>
+    <section id="orador-invitado" class="col-12 orador-invitado">
+        <div class="col-10 orador-invitado___container">
+            <h2 class="color-s1 subtitle">Orador</h2>
+            <h2 class="color-s1 subtitle">invitado</h2>
+        </div>
+        <h3 class="col-10 color-p2 subtitle-1">Timmy Ost</h3>
+        <div class="col-12 orador-invitado___description">
+            <div class="col-5 color-s1 paragraph-primary orador-invitado___description-text">
+                <p>Director del Instituto Especialidades 625 en México</p>
+                <p>Pastor de la iglesia Capital en Austin, TX.</p>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d961911.4082797982!2d-99.930203!3d19.650096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d28ae9fa5f5e23%3A0xadf041660080acec!2sHacienda%20Mazahua!5e0!3m2!1ses-419!2sus!4v1717315224293!5m2!1ses-419!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-6 orador-invitado___description-picture-container">
+                <img class="orador-invitado___description-picture" src="./img/Timmy Ost-recorte-verde-2.png" alt="Timmy Ost">
+            </div>
         </div>
     </section>
-    <section id="registro" class="container">
+    <section id="info" class="col-12 info">
+        <i class="fa-solid fa-house-chimney-crack info___home-icon"></i>
+        <h3 class="col-10 color-s1 subtitle-2">Hacienda Mazahua</h3>
+        <p class="col-10 color-s1 paragraph-primary info___text">Carretera Ixtlahuaca hacia San Felipe del Progreso km. 23
+            San Felipe del Progreso, Estado de México, C.P. 50640</p>
+    </section>
+    <section id="costo" class="col-12 costo">
+        <h2 class="col-10 color-p2 subtitle">Costo</h2>
+        <div class="costo___container-text">
+            <p class="col-8 color-s2 costo___text-1">$1500.ºº MXN por persona</p>
+            <p class="col-9 color-s2 paragraph-primary costo___text-2">Promoción para 2 hermanos <span class="paragraph-black">$2,800.ºº MXN</span></p>
+            <p class="col-9 color-s2 paragraph-primary costo___text-2">Promoción para 3 hermanos <span class="paragraph-black">$4,000.ºº MXN</span></p>
+        </div>
+    </section>
+    <section id="donativos" class="col-12 donativos">
+        <h2 class="col-10 color-p1 subtitle">Dona</h2>
+        <h2 class="col-10 color-p1 subtitle">tivos</h2>
+        <div class="donativos___container-text">
+            <div class="donativos___container-text___op1">
+                <h3 class="color-p2 subtitle-2">Opcion 1</h3>
+                <h3 class="color-p2 subtitle-2">Ofrenda económica</h3>
+                <p class="color-s2 paragraph-primary">Depósitos a la cuenta:</p>
+                <p class="color-s2 paragraph-primary">IGLESIA UNIDAD CRISTIANA DE QUERETARO AR</p>
+                <p class="color-s2 paragraph-primary">Banco: BBVA</p>
+                <p class="color-s2 paragraph-primary">No. Cuenta: 0119367330</p>
+                <p class="color-s2 paragraph-primary">Clabe interbancaria:</p>
+                <p class="color-s2 paragraph-primary">0126 8000 119367 3308</p>
+                <p class="color-s2 paragraph-primary">Concepto:</p>
+                <p class="color-s2 paragraph-primary">Ofrenda Camp ONE</p>
+            </div>
+            <div class="donativos___container-text___op2">
+                <h3 class="color-p2 subtitle-2">Opción 2</h3>
+                <h3 class="color-p2 subtitle-2">Ofrenda en especie</h3>
+                <p class="color-s2 paragraph-primary">Agua embotellada</p>
+                <p class="color-s2 paragraph-primary">355 ml / 500 ml / 1 lt</p>
+                <p class="color-s2 paragraph-primary">Suero/ Electrolitos</p>
+                <p class="color-s2 paragraph-primary">500 ml / 625 ml</p>
+                <p class="color-s2 paragraph-primary">Snacks (barritas de cereales)</p>
+                <p class="color-s2 paragraph-primary">Gomitas</p>
+                <p class="color-s2 paragraph-primary">Galletas</p>
+                <p class="color-s2 paragraph-primary">Bombones</p>
+            </div>
+        </div>
+    </section>
+    <section id="registro" class="col-12">
         <h3 class="subtitle">Registro</h3>
         <div class="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdHbuVDJApO8w5VcVq5161hKrh6-A2uJfZQmabUg0CP3KyQyg/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdHbuVDJApO8w5VcVq5161hKrh6-A2uJfZQmabUg0CP3KyQyg/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
         </div>
     </section>
 </body>
