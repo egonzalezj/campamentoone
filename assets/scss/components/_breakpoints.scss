@@ -1,0 +1,334 @@
+@media screen and (min-width: 390px) {
+    .hero {
+        row-gap: 1.5rem;
+    }
+    .orador-invitado {
+        &___description {
+            &-text {
+                padding: 0 1rem;
+            }
+            &-picture-img {
+                width: 30rem;
+            }
+        }
+    }
+    .info {
+        row-gap: 2rem;
+        &___icon {
+            font-size: 2.5rem;
+        }
+        &___content {
+            line-height: 1.75rem;
+            padding: 0 1rem;
+        }
+    }
+    .donativos {
+        &___content {
+            row-gap: 2.5rem;
+            &-text {
+                line-height: 1.75rem;
+            }
+        }
+    }
+    .footer {
+        row-gap: 2rem;
+        &___address i,
+        &___social-media {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .nav {
+        &___logo-picture {
+            width: 4rem;
+        }
+        &___toggle {
+            font-size: 2.5rem;
+        }
+        &___menu {
+            &-close {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .hero {
+        row-gap: 1rem;
+        &___button {
+            border-width: 0.35rem;
+            padding-top: 1.7rem;
+            padding-bottom: 2rem;
+            width: 20rem;
+        }
+    }
+    .orador-invitado {
+        &___description {
+            &-text {
+                padding: 0 2rem;
+            }
+            &-picture-img {
+                width: 35rem;
+            }
+        }
+    }
+    .info {
+        &___icon {
+            font-size: 3.5rem;
+        }
+        &___content {
+            line-height: 2.5rem;
+            padding: 0 1.8rem;
+        }
+    }
+    .donativos {
+        &___content {
+            row-gap: 2.25rem;
+            &-text {
+                line-height: 2rem;
+            }
+        }
+    }
+    .footer {
+        row-gap: 2rem;
+        &___address i,
+        &___social-media {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        &___button {
+            border-width: 0.4rem;
+            padding-top: 2rem;
+            padding-bottom: 2.5rem;
+            width: 20rem;
+        }
+    }
+    .orador-invitado {
+        &___description {
+            &-text {
+                padding: 0 3rem;
+            }
+            &-picture-img {
+                width: 23rem;
+            }
+        }
+    }
+    .info {
+        &___icon {
+            font-size: 4rem;
+        }
+        &___content {
+            line-height: 2.5rem;
+            padding: 0 3rem;
+        }
+    }
+    .donativos {
+        &___title {
+            display: flex;
+            &-item:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+        &___content {
+            row-gap: 3.5rem;
+            &-text {
+                line-height: 2.75rem;
+            }
+        }
+    }
+    .footer {
+        row-gap: 2.5rem;
+        &___address i,
+        &___social-media {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero {
+        &___title {
+            flex-direction: row;
+            padding-top: 2rem;
+            &-item:nth-child(2) {
+                margin-top: 0;
+            }
+        }
+        &___button {
+            border-width: 0.4rem;
+            padding-top: 2rem;
+            padding-bottom: 2.5rem;
+            width: 20rem;
+        }
+    }
+    .orador-invitado {
+        &___title {
+            column-gap: 2rem;
+            flex-direction: row;
+        }
+        &___description {
+            &-text {
+                padding: 0 5.5rem;
+            }
+            &-picture-img {
+                width: 25rem;
+            }
+        }
+    }
+    .info {
+        &___icon {
+            font-size: 4.5rem;
+        }
+        &___content {
+            line-height: 3rem;
+            padding: 0 3rem;
+        }
+    }
+    .donativos {
+        &___content {
+            &-text {
+                line-height: 3rem;
+            }
+        }
+    }
+    .footer {
+        row-gap: 2.5rem;
+        &___address,
+        &___copyright {
+        line-height: 2.5rem;
+        padding: 0 5rem;
+    }
+        &___address i,
+        &___social-media {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        row-gap: 1.5rem;
+        &___subtitle {
+            line-height: 5rem;
+            row-gap: 0;
+        }
+        &___date {
+            flex-direction: row;
+            column-gap: 2rem;
+        }
+        &___button {
+            padding-top: 1.6rem;
+            padding-bottom: 1.9rem;
+            width: 18rem;
+        }
+    }
+    .nav {
+        &___toggle {
+            display: none;
+        }
+        &___menu {
+            padding: 0;
+            position: static;
+            width: auto;
+            &-list {
+                column-gap: 2rem;
+                flex-direction: row;
+            }
+            &-link:hover {
+                color: var(--color-primary1);
+            }
+            &-close {
+                display: none;
+            }
+        }
+    }
+    .orador-invitado {
+        &___description {
+            &-text {
+                padding: 0 13rem;
+            }
+            &-picture-img {
+                width: 19rem;
+            }
+        }
+    }
+    .info {
+        &___icon {
+            font-size: 4rem;
+        }
+        &___content {
+            line-height: 3rem;
+            padding: 0 18rem;
+        }
+    }
+    .donativos {
+        &___content {
+            &-text {
+                line-height: 3rem;
+            }
+        }
+    }
+    .footer {
+        row-gap: 2.5rem;
+        &___address,
+        &___copyright {
+        line-height: 2.5rem;
+        padding: 0 10rem;
+    }
+        &___address i,
+        &___social-media {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .orador-invitado {
+        &___description {
+            &-text {
+                padding: 0 18rem;
+            }
+            &-picture-img {
+                width: 19.5rem;
+            }
+        }
+    }
+    .info {
+        &___icon {
+            font-size: 5rem;
+        }
+        &___content {
+            line-height: 3.25rem;
+            padding: 0 20rem;
+        }
+    }
+    .donativos {
+        &___content {
+            &-text {
+                line-height: 3.5rem;
+            }
+        }
+    }
+    .footer {
+        row-gap: 2.5rem;
+        &___address,
+        &___copyright {
+        line-height: 2.5rem;
+        padding: 0 10rem;
+    }
+        &___address i,
+        &___social-media {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 2048) {
+    body {
+        zoom: 2;
+    }
+}

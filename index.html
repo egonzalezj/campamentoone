@@ -3,110 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./assets/scss/styles.css">
     <title>Campamento Escogidos</title>
 </head>
 <body>
-    <header class="col-12 hero">
-        <menu class="col-12 hero___nav">
-            <div class="col-12 hero___nav-container">
-                <img class="hero___nav-logo" src="./img/ONE-blanco-.png" alt="">
-                <div class="hero___nav-icon-div">
-                    <a href="#"><i class="fa-solid fa-bars hero___nav-icon-menu"></i></a>
+    <!--HEADER-->
+    <header class="header">
+        <nav class="nav container">
+            <a class="nav___logo" href="#"><img class="nav___logo-picture" src="./assets/img/ONE-blanco-.png" alt=""></a>
+            <div class="nav___menu" id="nav-menu">
+                <ul class="nav___menu-list">
+                    <li class="nav___menu-item"><a class="nav___menu-link" href="#home">Inicio</a></li>
+                    <li class="nav___menu-item"><a class="nav___menu-link" href="#info">Info</a></li>
+                    <li class="nav___menu-item"><a class="nav___menu-link" href="#registro">Registro</a></li>
+                    <li class="nav___menu-item"><a class="nav___menu-link" href="#donativos">Quiero donar</a></li>
+                    <li class="nav___menu-item"><a class="nav___menu-link" href="https://drive.google.com/drive/folders/1Zr956oisJtHFxjNnufpV5fzxLvrZlZMX?usp=sharing" target="_blank">Descargas</a></li>
+                    <li class="nav___menu-item"><a class="nav___menu-link" href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="nav___menu-close" id="nav-close">
+                    <i class="fa-solid fa-x"></i>
                 </div>
-                <!--<ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="#info">Info</a></li>
-                    <li><a href="#registro">Registro</a></li>
-                    <li><a href="">Descargas</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>-->
             </div>
-        </menu>
-        <div class="col-10 hero___container-campamento">
-            <p class="color-g1 title-campamento">Campa</p>
-            <p class="color-g1 title-campamento">mento</p>
-        </div>
-        <div class="col-10 hero___container-escogidos">
-            <h1 class="color-p1 title">Escogidos</h1>
-            <p class="color-p1 title title-1">Escogidos</p>
-            <p class="color-p1 title title-2">Escogidos</p>
-        </div>
-        <div class="col-10 hero___container-fecha">
-            <p class="color-g1 title-fecha title-fecha-1">9 y 10</p>
-            <p class="color-g1 title-fecha title-fecha-2">de agosto</p>
-        </div>
-        <div class="col-10 hero___container-call-to-action">
-            <a class="btn btn-l" href="#registro">Regístrate</a>
-        </div>
+            <!--TOGGLE-->
+            <div class="nav___toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
     </header>
-    <section id="orador-invitado" class="col-12 orador-invitado">
-        <div class="col-10 orador-invitado___container">
-            <h2 class="color-s1 subtitle">Orador</h2>
-            <h2 class="color-s1 subtitle">invitado</h2>
-        </div>
-        <h3 class="col-10 color-p2 subtitle-1">Timmy Ost</h3>
-        <div class="col-12 orador-invitado___description">
-            <div class="col-5 color-s1 paragraph-primary orador-invitado___description-text">
-                <p>Director del Instituto Especialidades 625 en México</p>
-                <p>Pastor de la iglesia Capital en Austin, TX.</p>
+    <!--MAIN-->
+    <main class="main">
+        <!--HERO-->
+        <section class="hero" id="home">
+            <div class="hero___title container">
+                <p class="hero___title-item">Campa</p>
+                <p class="hero___title-item">mento</p>
             </div>
-            <div class="col-6 orador-invitado___description-picture-container">
-                <img class="orador-invitado___description-picture" src="./img/Timmy Ost-recorte-verde-2.png" alt="Timmy Ost">
+            <div class="hero___subtitle container">
+                <h1 class="hero___subtitle-item-1">Escogidos</h1>
+                <p class="hero___subtitle-item-2">Escogidos</p>
+                <p class="hero___subtitle-item-3">Escogidos</p>
             </div>
-        </div>
-    </section>
-    <section id="info" class="col-12 info">
-        <i class="fa-solid fa-house-chimney-crack info___home-icon"></i>
-        <h3 class="col-10 color-s1 subtitle-2">Hacienda Mazahua</h3>
-        <p class="col-10 color-s1 paragraph-primary info___text">Carretera Ixtlahuaca hacia San Felipe del Progreso km. 23
-            San Felipe del Progreso, Estado de México, C.P. 50640</p>
-    </section>
-    <section id="costo" class="col-12 costo">
-        <h2 class="col-10 color-p2 subtitle">Costo</h2>
-        <div class="costo___container-text">
-            <p class="col-8 color-s2 costo___text-1">$1500.ºº MXN por persona</p>
-            <p class="col-9 color-s2 paragraph-primary costo___text-2">Promoción para 2 hermanos <span class="paragraph-black">$2,800.ºº MXN</span></p>
-            <p class="col-9 color-s2 paragraph-primary costo___text-2">Promoción para 3 hermanos <span class="paragraph-black">$4,000.ºº MXN</span></p>
-        </div>
-    </section>
-    <section id="donativos" class="col-12 donativos">
-        <h2 class="col-10 color-p1 subtitle">Dona</h2>
-        <h2 class="col-10 color-p1 subtitle">tivos</h2>
-        <div class="donativos___container-text">
-            <div class="donativos___container-text___op1">
-                <h3 class="color-p2 subtitle-2">Opcion 1</h3>
-                <h3 class="color-p2 subtitle-2">Ofrenda económica</h3>
-                <p class="color-s2 paragraph-primary">Depósitos a la cuenta:</p>
-                <p class="color-s2 paragraph-primary">IGLESIA UNIDAD CRISTIANA DE QUERETARO AR</p>
-                <p class="color-s2 paragraph-primary">Banco: BBVA</p>
-                <p class="color-s2 paragraph-primary">No. Cuenta: 0119367330</p>
-                <p class="color-s2 paragraph-primary">Clabe interbancaria:</p>
-                <p class="color-s2 paragraph-primary">0126 8000 119367 3308</p>
-                <p class="color-s2 paragraph-primary">Concepto:</p>
-                <p class="color-s2 paragraph-primary">Ofrenda Camp ONE</p>
+            <div class="hero___date container">
+                <p class="hero___date-days">9 y 10</p>
+                <p class="hero___date-month">de agosto</p>
             </div>
-            <div class="donativos___container-text___op2">
-                <h3 class="color-p2 subtitle-2">Opción 2</h3>
-                <h3 class="color-p2 subtitle-2">Ofrenda en especie</h3>
-                <p class="color-s2 paragraph-primary">Agua embotellada</p>
-                <p class="color-s2 paragraph-primary">355 ml / 500 ml / 1 lt</p>
-                <p class="color-s2 paragraph-primary">Suero/ Electrolitos</p>
-                <p class="color-s2 paragraph-primary">500 ml / 625 ml</p>
-                <p class="color-s2 paragraph-primary">Snacks (barritas de cereales)</p>
-                <p class="color-s2 paragraph-primary">Gomitas</p>
-                <p class="color-s2 paragraph-primary">Galletas</p>
-                <p class="color-s2 paragraph-primary">Bombones</p>
+            <div class="container">
+                <a class="hero___button" href="#registro">Regístrate</a>
             </div>
-        </div>
-    </section>
-    <section id="registro" class="col-12">
-        <h3 class="subtitle">Registro</h3>
-        <div class="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdHbuVDJApO8w5VcVq5161hKrh6-A2uJfZQmabUg0CP3KyQyg/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-        </div>
-    </section>
+        </section>
+        <section class="orador-invitado" id="info">
+            <div class="orador-invitado___title container">
+                <h2 class="orador-invitado___title-item">Orador</h2>
+                <h2 class="orador-invitado___title-item">invitado</h2>
+            </div>
+            <h3 class="orador-invitado___subtitle container">Timmy Ost</h3>
+            <div class="orador-invitado___description">
+                <div class="orador-invitado___description-text">
+                    <p>Director del Instituto Especialidades 625 en México.</p>
+                    <p>Pastor de la iglesia Capital en Austin, TX.</p>
+                </div>
+                <picture class="orador-invitado___description-picture">
+                    <img class="orador-invitado___description-picture-img" src="./assets/img/Timmy Ost-recorte-verde-2.png" alt="Timmy Ost">
+                </picture>
+            </div>
+        </section>
+        <section class="info">
+            <i class="info___icon container fa-solid fa-house-chimney-crack"></i>
+            <h3 class="info___title container">Hacienda Mazahua</h3>
+            <p class="info___content container">Carretera Ixtlahuaca hacia San Felipe del Progreso km. 23
+                San Felipe del Progreso, Estado de México, C.P. 50640</p>
+        </section>
+        <section class="costo">
+            <h2 class="costo___title container">Costo</h2>
+            <div class="costo___content container">
+                <p class="costo___content-item-1">$1500.ºº MXN<br>por persona</p>
+                <p class="costo___content-item-2">Promoción para 2 hermanos</p>
+                <p class="costo___content-item-3">$2,800.ºº MXN</p>
+                <p class="costo___content-item-4">Promoción para 3 hermanos</p>
+                <p class="costo___content-item-5">$4,000.ºº MXN</p>
+            </div>
+        </section>
+        <section id="donativos" class="donativos">
+            <div class="donativos___title container">
+                <h2 class="donativos___title-item">Dona</h2>
+                <h2 class="donativos___title-item">tivos</h2>
+            </div>
+            <div class="donativos___content container">
+                <div class="donativos___content-title">
+                    <h3 class="donativos___content-title-item">Opción 1</h3>
+                    <h3 class="donativos___content-title-item">Ofrenda económica</h3>
+                </div>
+                <p class="donativos___content-text">Depósitos a la cuenta:<br>IGLESIA UNIDAD CRISTIANA DE QUERETARO AR<br>Banco: BBVA<br>No. Cuenta: 0119367330<br>Clabe interbancaria:<br>0126 8000 119367 3308<br><span class="donativos___content-text-black">Concepto:<br>Ofrenda Camp ONE</span></p>
+                <div class="donativos___content-title">
+                    <h3 class="donativos___content-title-item">Opción 2</h3>
+                    <h3 class="donativos___content-title-item">Ofrenda en especie</h3>
+                </div>
+                <p class="donativos___content-text">Agua embotellada<br>355 ml / 500 ml / 1 lt<br>Suero/ Electrolitos<br>500 ml / 625 ml<br>Snacks (barritas de cereales)<br>Gomitas, galletas, bombones</p>
+            </div>
+        </section>
+        <section id="registro" class="registro">
+            <h2 class="registro___title container">Registro</h2>
+            <iframe class="registro___form" src="https://docs.google.com/forms/d/e/1FAIpQLSdHbuVDJApO8w5VcVq5161hKrh6-A2uJfZQmabUg0CP3KyQyg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        </section>
+        <footer class="footer" id="contacto">
+            <div class="footer___title container">
+                <h2 class="footer___title-item">Contacto</h2>
+            </div>
+            <div class="footer___address container">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p>Calle, Roberto Ruiz Obregón 5-A, Villas Tecnologico, 76150 Santiago de Querétaro, Qro.</p>
+            </div>
+            <div class="footer___social-media container">
+                <a href="https://www.facebook.com/UnidadCristiana.Qro" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/ucqro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@UnidadCristianaTv" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer___copyright container">
+                <p>Todos los derechos reservados © 2024</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/main.js"></script>
 </body>
 </html>
