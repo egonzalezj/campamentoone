@@ -463,6 +463,23 @@ body {
 }
 
 /* FONTS */
+@font-face {
+  font-family: Graffiti-City;
+  src: url(../../fonts/Graffiti\ City.otf);
+}
+@font-face {
+  font-family: Mark-SmallCaps-Black;
+  src: url(/../../fonts/Mark-SmallCaps-Black.ttf);
+}
+@font-face {
+  font-family: Mark-Black;
+  src: url(/../../fonts/Mark-Black.ttf);
+}
+@font-face {
+  font-family: Mark-Book;
+  src: url(/../../fonts/Mark-Book.ttf);
+}
+
 /* Custom properties */
 :root {
   /* Colors */
