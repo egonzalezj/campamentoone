@@ -1,28 +1,23 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Grandiflora+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('./assets/fonts/Graffiti\ City.otf');
-@import url('./assets/fonts/Mark-Black-Italic.ttf');
-@import url('./assets/fonts/Mark-Black.ttf');
-@import url('./assets/fonts/Mark-Bold-Italic.ttf');
-@import url('./assets/fonts/Mark-Bold.ttf');
-@import url('./assets/fonts/Mark-Book-Italic.ttf');
-@import url('./assets/fonts/Mark-Book.ttf');
-@import url('./assets/fonts/Mark-Extralight-Italic.ttf');
-@import url('./assets/fonts/Mark-Extralight.ttf');
-@import url('./assets/fonts/Mark-Hairline-Italic.ttf');
-@import url('./assets/fonts/Mark-Hairline.ttf');
-@import url('./assets/fonts/Mark-Heavy-Italic.ttf');
-@import url('./assets/fonts/Mark-Heavy.ttf');
-@import url('./assets/fonts/Mark-Light-Italic.ttf');
-@import url('./assets/fonts/Mark-Light.ttf');
-@import url('./assets/fonts/Mark-Medium-Italic.ttf');
-@import url('./assets/fonts/Mark-Medium.ttf');
-@import url('./assets/fonts/Mark-Regular-Italic.ttf');
-@import url('./assets/fonts/Mark-Regular.ttf');
-@import url('./assets/fonts/Mark-SmallCaps-Black.ttf');
-@import url('./assets/fonts/Mark-SmallCaps-Regular.ttf');
-@import url('./assets/fonts/Mark-Thin-Italic.ttf');
-@import url('./assets/fonts/Mark-Thin.ttf');
+@font-face {
+    font-family: Graffiti-City;
+    src: url(/assets/fonts/Graffiti\ City.otf);
+  }
+
+@font-face {
+    font-family: Mark-SmallCaps-Black;
+    src: url(/assets/fonts/Mark-SmallCaps-Black.ttf);
+}
+
+@font-face {
+    font-family: Mark-Black;
+    src: url(/assets/fonts/Mark-Black.ttf);
+}
+
+@font-face {
+    font-family: Mark-Book;
+    src: url(/assets/fonts/Mark-Book.ttf);
+}
 
 /* Custom properties */
 :root {
@@ -33,7 +28,7 @@
     --color-secondary2: #FFFFFF;
     --color-gradient: linear-gradient(0deg, rgba(251, 253, 31, 1), rgba(0, 250, 135, 1));
     /* Fonts */
-    --font-primary: "Graffiti City", sans-serif;
+    --font-primary: "Graffiti-City", sans-serif;
     --font-secondary: "Mark-SmallCaps-Black", sans-serif;
     --font-black: "Mark-Black", sans-serif;
     --font-paragraph: "Mark-Book", sans-serif;
