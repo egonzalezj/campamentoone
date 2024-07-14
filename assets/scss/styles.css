@@ -111,7 +111,7 @@ body {
 
 .hero {
   align-items: center;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/img/camp1.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/camp1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -441,19 +441,19 @@ body {
 /* FONTS */
 @font-face {
   font-family: Graffiti-City;
-  src: url(/assets/scss/fonts/Graffiti\ City.otf);
+  src: url(fonts/Graffiti-City.otf);
 }
 @font-face {
   font-family: Mark-SmallCaps-Black;
-  src: url(/assets/scss/fonts/Mark-SmallCaps-Black.ttf);
+  src: url(fonts/Mark-SmallCaps-Black.ttf);
 }
 @font-face {
   font-family: Mark-Black;
-  src: url(/assets/scss/fonts/Mark-Black.ttf);
+  src: url(fonts/Mark-Black.ttf);
 }
 @font-face {
   font-family: Mark-Book;
-  src: url(/assets/scss/fonts/Mark-Book.ttf);
+  src: url(fonts/Mark-Book.ttf);
 }
 /* Custom properties */
 :root {
