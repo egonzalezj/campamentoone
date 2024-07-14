@@ -1,22 +1,22 @@
 /* FONTS */
 @font-face {
     font-family: Graffiti-City;
-    src: url(../../fonts/Graffiti\ City.otf);
+    src: url(/assets/scss/fonts/Graffiti\ City.otf);
   }
 
 @font-face {
     font-family: Mark-SmallCaps-Black;
-    src: url(/../../fonts/Mark-SmallCaps-Black.ttf);
+    src: url(/assets/scss/fonts/Mark-SmallCaps-Black.ttf);
 }
 
 @font-face {
     font-family: Mark-Black;
-    src: url(/../../fonts/Mark-Black.ttf);
+    src: url(/assets/scss/fonts/Mark-Black.ttf);
 }
 
 @font-face {
     font-family: Mark-Book;
-    src: url(/../../fonts/Mark-Book.ttf);
+    src: url(/assets/scss/fonts/Mark-Book.ttf);
 }
 
 /* Custom properties */
@@ -28,7 +28,7 @@
     --color-secondary2: #FFFFFF;
     --color-gradient: linear-gradient(0deg, rgba(251, 253, 31, 1), rgba(0, 250, 135, 1));
     /* Fonts */
-    --font-primary: "Graffiti City", sans-serif;
+    --font-primary: "Graffiti-City", sans-serif;
     --font-secondary: "Mark-SmallCaps-Black", sans-serif;
     --font-black: "Mark-Black", sans-serif;
     --font-paragraph: "Mark-Book", sans-serif;
