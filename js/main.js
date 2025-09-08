@@ -1,6 +1,7 @@
 const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
+const navLink = document.querySelectorAll(".nav___menu-link");
 
 //Show menu
 if(navToggle) {
@@ -14,3 +15,8 @@ if(navClose) {
         navMenu.classList.remove("show-menu");
     })
 }
+
+//Close menu when a nav link is clicked
+navLink.forEach(n => n.addEventListener("click", () => {
+    navMenu.classList.remove("show-menu");
+}));
